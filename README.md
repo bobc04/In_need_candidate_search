@@ -1,33 +1,75 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-* Configure the top-level `parserOptions` property as follows:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+# In Need Applicant Tracker
 
 ---
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.# In_need_candidate_search
+
+### Description
+<p> Simple job candidate search.</p>
+
+---
+
+### Technical Requirements
+Technologies and tools used:
+<p>
+- Microsoft Visual Studio Code <br/>
+- Github <br/>
+- TypeScirpt, NPM, NPM Inquirer, Node.js, PostgresSQL, Vite, NPM PG, Express, React, Render, and Javascript <br/> 
+
+
+---
+### User Story
+- AS AN employer:
+- I WANT a candidate search application
+- SO THAT I can hire the best candidates
+
+---
+
+### Acceptance Criteria
+GIVEN a candidate search application
+WHEN the candidate search page loads
+THEN the information for one candidate should be displayed, including the candidate's name, username, location, avatar, email, html_url, and company
+WHEN I click the "+" button
+THEN the candidate should be saved to the list of potential candidates and the next candidate's information should be displayed
+WHEN I click the "-" button
+THEN the next candidate's information should be displayed without saving the current candidate
+WHEN there are no candidates available to review
+THEN an appropriate message should be shown indicating no more candidates are available
+WHEN the potential candidates page loads
+THEN the user should see a list of previously saved potential candidates with their name, username, location, avatar, email, html_url, and company
+WHEN the page reloads
+THEN the list of potential candidates should persist and be available for viewing
+WHEN there are no potential candidates
+THEN an appropriate message should be displayed indicating no candidates have been accepted
+WHEN I click the "-" button
+THEN the next candidate's information should be displayed without saving the current candidate
+
+
+---
+
+### Installation and Running the Application
+- Clone this repo: 'https://github.com/bobc04/In_need_candidate_search' (without quotes)
+- Make sure all listed application are installed
+- From the directory where the package.json is installed run:
+  - npm i
+  - npm run build
+  - npm run start (maybe npm run dev)
+- Using Render https://render.com/ follow steps to deploy application
+
+ 
+
+---
+### License
+<p>
+This project is licensed under the MIT free software agreement. The repo owner is the copyright holder but grants permission to use, modify, and distribute the application.
+</p>
+
+---
+
+### Credits
+<p>
+This application was developed by the the repo owner, with contributions from numerous libraries, external references, publications, and publicly available data.
+</p>
+
+<p>
+Thanks to the FSF-PT-EAST-OCTOBER-100724-MTTH-CONS(B) instructional staff whose guidance and mentorship has greatly assisted with the creation of this application.
+</p>
+
